@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.keepgold:
-                Toast.makeText(this,"This is wear gold page",Toast.LENGTH_LONG).show();
+                Toast.makeText(this,"This is keep gold page",Toast.LENGTH_LONG).show();
                 Intent intent2=new Intent(this,KeepActivity.class);
                 startActivity(intent2);
                 break;
